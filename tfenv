@@ -13,3 +13,6 @@ $ mkdir -p ~/.local/bin/
 $ . ~/.profile
 $ ln -s ~/.tfenv/bin/* ~/.local/bin
 $ which tfenv
+tfenv install <version>
+tfenv install 0.12.31
+tfenv use 0.12.31
